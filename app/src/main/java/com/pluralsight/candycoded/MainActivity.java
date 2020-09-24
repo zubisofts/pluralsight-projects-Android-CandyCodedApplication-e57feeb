@@ -84,11 +84,6 @@ public class MainActivity extends AppCompatActivity {
     // TODO - Task 1 - Show Store Information Activity
     // ***
 
-    private void startStoreInfoActivity(){
-        Intent infoIntent =new Intent(this,InfoActivity.class);
-        startActivity(infoIntent);
-    }
-
     private void addCandiesToDatabase(Candy[] candies) {
         SQLiteDatabase db = candyDbHelper.getWritableDatabase();
 
